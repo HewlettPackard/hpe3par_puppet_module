@@ -1,6 +1,6 @@
 {
   "name": "hewlettpackardenterprise-hpe3par",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "hewlettpackardenterprise",
   "summary": "HPE 3PAR Module for Puppet",
   "license": "Apache-2.0",
