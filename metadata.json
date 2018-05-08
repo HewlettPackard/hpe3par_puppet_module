@@ -1,5 +1,5 @@
 {
-  "name": "hpe/hpe3par",
+  "name": "hpe-hpe3par",
   "version": "1.0.0",
   "author": "hpe",
   "summary": "HPE 3PAR Module for Puppet",
