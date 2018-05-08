@@ -1,0 +1,6 @@
+source ENV['GEM_SOURCE'] || 'https://rubygems.org'
+gem 'hpe3par_sdk'
+gem 'rspec-core', '= 3.7.1'
+gem 'puppetlabs_spec_helper', '= 2.6.2'
+gem 'puppet', '>= 5'
+gem 'rspec-puppet-facts', '= 1.9.0'

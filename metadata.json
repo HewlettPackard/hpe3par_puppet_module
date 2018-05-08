@@ -1,0 +1,44 @@
+{
+  "name": "hpe/hpe3par",
+  "version": "1.0.0",
+  "author": "hpe",
+  "summary": "HPE 3PAR Module for Puppet",
+  "license": "Apache-2.0",
+  "source": "https://github.com/HewlettPackard/hpe3par_puppet_module",
+  "project_page": "https://github.com/HewlettPackard/hpe3par_puppet_module",
+  "issues_url": "https://github.com/HewlettPackard/hpe3par_puppet_module",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    },
+    {
+      "name": "hpe3par_sdk",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "tags": [ "3par", "hpe", "hewlett packard enterprise", "storeserv", "storage"],
+}
