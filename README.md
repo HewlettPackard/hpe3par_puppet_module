@@ -77,7 +77,7 @@ In the case of Puppet Agent, connections to the HPE 3PAR array will be
 initiated from every machine which utilizes the HPE 3PAR puppet module this
 way.
 
-### Puppet Device
+### [Puppet Device](https://puppet.com/blog/puppet-network-device-management)
 
 The Puppet Network Device (NetDev) system is a way to configure devices (switches,
 routers, storage) which do not have the ability to run Puppet agent natively. This application acts as a smart proxy between the Puppet
