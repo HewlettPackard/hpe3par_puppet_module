@@ -6,15 +6,13 @@
   "license": "Apache-2.0",
   "source": "https://github.com/HewlettPackard/hpe3par_puppet_module",
   "project_page": "https://github.com/HewlettPackard/hpe3par_puppet_module",
-  "issues_url": "https://github.com/HewlettPackard/hpe3par_puppet_module",
-  "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
-  ],
+  "issues_url": "https://github.com/HewlettPackard/hpe3par_puppet_module/issues",
+  "dependencies": [],
   "data_provider": null,
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 5.0.0 < 6.0.0"
+      "version_requirement": ">= 5.0.0"
     },
     {
       "name": "hpe3par_sdk",
@@ -24,12 +22,6 @@
   "operatingsystem_support": [
     {
       "operatingsystem": "CentOS",
-      "operatingsystemrelease": [
-        "7"
-      ]
-    },
-    {
-      "operatingsystem": "RedHat",
       "operatingsystemrelease": [
         "7"
       ]
