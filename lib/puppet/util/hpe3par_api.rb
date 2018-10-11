@@ -419,7 +419,7 @@ class HPE3PAR_API
 
   def create_volume(volume_name, cpg_name, size, size_unit, type = 'thin',
                     compression = false, snap_cpg = nil, debug = false)
-    cl = Hpe3parSdk::Client.new(@rest_url, debug: debug, app_type: 'puppet-3par')
+    cl = Hpe3parSdk::Client.new(@rest_url, debug: debug, app_type: 'puppet_module_3par')
     size_MiB = convert_to_binary_multiple(size, size_unit)
     tpvv = false
     tdvv = false
@@ -462,7 +462,7 @@ class HPE3PAR_API
   def modify_volume(volume_name, new_name, expiration_time, retention_time, snap_cpg, user_cpg,
                     ss_spc_alloc_warning_pct, ss_spc_alloc_limit_pct, usr_spc_alloc_warning_pct, usr_spc_alloc_limit_pct,
                     rm_ss_spc_alloc_warning, rm_usr_spc_alloc_warning, rm_exp_time, rm_ss_spc_alloc_limit, rm_usr_spc_alloc_limit, debug = false)
-    cl = Hpe3parSdk::Client.new(@rest_url, debug: debug, app_type: 'puppet-3par')
+    cl = Hpe3parSdk::Client.new(@rest_url, debug: debug, app_type: 'puppet_module_3par')
     begin
       cl.login(@url.user, @url.password)
       volume_mods={:expirationHours => expiration_time,
