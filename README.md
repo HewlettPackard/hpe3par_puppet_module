@@ -11,8 +11,8 @@ Use this by creating a new module and specifying a dependency on this module in 
 ## Requirements
 
 * 3PAR OS
-   * 3.2.2 MU4 + 106, MU6 + P107
-   * 3.3.1 MU2
+   * 3.2.2 MU4, MU6
+   * 3.3.1 MU1, MU2
 * Puppet - 5.3
 * [hpe3par_sdk](https://rubygems.org/gems/hpe3par_sdk/) ruby gem
 * WSAPI service should be enabled on the 3PAR storage array.
